@@ -1,6 +1,8 @@
 # Yandex.Praktikum
 
 ## Sprint 11
+    A simple photo gallery. 
+  
 
 # Installation :
 
