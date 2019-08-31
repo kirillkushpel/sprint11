@@ -1,11 +1,12 @@
 {
   "name": "sprint11",
-  "version": "1.0",
+  "version": "3.5.8",
   "description": "Yandex.Praktikum homework",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && webpack --mode production",
-    "dev": "webpack-dev-server --mode development --open --watch"
+    "dev": "webpack-dev-server --mode development --open --watch",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
@@ -19,8 +20,8 @@
     "css-loader": "^3.2.0",
     "cssnano": "^4.1.10",
     "cssnano-preset-advanced": "^4.0.7",
+    "gh-pages": "~2.0.1",
     "file-loader": "^4.2.0",
-    "gh-pages": "~2.1.1",
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^5.0.0",
     "mini-css-extract-plugin": "^0.8.0",
