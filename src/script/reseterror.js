@@ -1,3 +1,4 @@
+// необходимо комментировать такие места
 export default function resetErrorMessages(parentNode) {
     const errorsCollection = Array.from(parentNode.getElementsByTagName('span'));
     errorsCollection.forEach(function (item) {

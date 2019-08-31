@@ -3,6 +3,7 @@ import {options} from './options.js'
 
 
 class Api {
+// можно лучше:  нет понимания за что отвечают некоторые переменные
   constructor ({ host, cohort, token, contentType }) {
     this.baseURL = `${host}/${cohort}`
     this.headers = {
@@ -28,6 +29,7 @@ class Api {
       })
       .catch((err) => {
         // alert('Что-то пошло не так :(, ошибка' + err)
+        // console.log лучше всего убрать, он нужен только для разработки, пользователи его не видят
         console.log(options)
       })
   }
